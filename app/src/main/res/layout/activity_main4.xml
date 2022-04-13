@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/centerTv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:text="*"
+        android:layout_centerInParent="true"
+        android:textColor="#ffffff"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/aTv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#ff0000"
+        android:layout_toLeftOf="@+id/centerTv"
+        android:layout_above="@+id/centerTv"
+        android:gravity="center"
+        android:text="A"
+        android:textColor="#ffffff"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/bTv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#ff0000"
+        android:layout_toRightOf="@+id/centerTv"
+        android:layout_above="@+id/centerTv"
+        android:gravity="center"
+        android:text="b"
+        android:textColor="#ffffff"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/cTv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#ff0000"
+        android:layout_toRightOf="@+id/centerTv"
+        android:layout_below="@+id/centerTv"
+        android:gravity="center"
+        android:text="c"
+        android:textColor="#ffffff"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/dTv"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="#C2DE90"
+        android:layout_alignLeft="@+id/centerTv"
+        android:layout_below="@+id/cTv"
+        android:gravity="center"
+        android:text="d"
+        android:textColor="#ffffff"
+        android:textSize="45sp" />
+    <TextView
+        android:id="@+id/eTv"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="#C2DE90"
+        android:layout_alignRight="@+id/centerTv"
+        android:layout_below="@+id/dTv"
+        android:gravity="center"
+        android:text="e"
+        android:textColor="#ffffff"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/gTv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#0D5E9D"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="G"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/fTv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#5B1F29"
+        android:gravity="center"
+        android:layout_toLeftOf="@+id/gTv"
+        android:layout_alignParentBottom="true"
+        android:text="F"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+</RelativeLayout>
